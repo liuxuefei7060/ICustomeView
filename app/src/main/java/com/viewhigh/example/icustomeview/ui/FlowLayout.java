@@ -1,4 +1,4 @@
-package com.viewhigh.example.icustomeview;
+package com.viewhigh.example.icustomeview.ui;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ICustomeView">
-        <activity android:name=".MainActivity">
+        <activity android:name=".hencoder.HenCoderCustomViewDrawActivity"></activity>
+        <activity android:name=".RecyclerViewDemoActivity" />
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CustomLayoutActivity" />
+        <activity android:name=".hencoder.draw1.HenCoderDraw1Activity" />
+        <activity android:name=".hencoder.draw2.HenCoderDraw2Activity" />
     </application>
 
 </manifest>
